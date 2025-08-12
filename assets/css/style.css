@@ -83,7 +83,11 @@ margin-top:47px;
   justify-content:space-evenly;
   list-style-type: none;
 }
-
+#social-lists i {
+font-size: 160%;
+padding: 5%;
+color:#3a3a3a;
+}
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px)
 {
