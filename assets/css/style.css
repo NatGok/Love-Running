@@ -73,6 +73,7 @@ main {
 background-color: rgb(175, 176, 229);
 /* code to ensure body size doesnt shrink*/
 flex: 1 0 auto ;
+margin-top:47px;
 }
 /*footer formatting*/
 footer{
