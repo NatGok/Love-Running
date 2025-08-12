@@ -75,10 +75,15 @@ background-color: rgb(175, 176, 229);
 flex: 1 0 auto ;
 margin-top:47px;
 }
-/*footer formatting*/
-footer{
-background-color: rgb(199, 166, 188);
+/*footer */
+#social-lists{
+  text-align: center;
+  padding: 15px 0;
+  display:flex;
+  justify-content:space-evenly;
+  list-style-type: none;
 }
+
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px)
 {
