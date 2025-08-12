@@ -17,12 +17,15 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-
 /*header formatting*/
 header {
 background-color: aquamarine;
 }
 /*body formatting*/
+
+h1{
+  font-family: "oswald", sans-serif;
+}
 main {
 background-color: rgb(175, 176, 229);
 /* code to ensure body size doesnt shrink*/
