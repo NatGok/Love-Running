@@ -79,3 +79,27 @@ margin-top:47px;
 footer{
 background-color: rgb(199, 166, 188);
 }
+/*Commands to change menu for table using media query for >768px*/
+@media screen and (min-width: 768px)
+{
+/*header for tablet*/
+nav {
+  display: block;
+  position: relative;
+  box-shadow:none;
+  width:fit-content;
+  padding-right: 1rem;
+
+}
+#menu {
+  display:flex;
+}
+
+#menu > li{
+  padding-left: 1rem;
+}
+
+.nav-toggle-label{
+  display: none;
+}
+}
