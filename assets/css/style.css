@@ -1,0 +1,18 @@
+/* */
+/* Override all default settings*/
+*{padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+/*header formatting*/
+header {
+background-color: aquamarine;
+}
+/*body formatting*/
+main {
+background-color: rgb(175, 176, 229);
+}
+/*footer formatting*/
+footer{
+background-color: rgb(199, 166, 188);
+}
