@@ -14,7 +14,12 @@ body {
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
-
+h1, h2 , h3 {
+  font-family: "oswald", sans-serif;
+  text-transform: uppercase;
+ letter-spacing: 2px;
+ color: #252525;
+}
 /*header formatting*/
 header {
 background-color: rgb(255, 255, 255);
@@ -40,12 +45,7 @@ header a {
   text-decoration: none;
   color:inherit;
   }
-h1{
-  font-family: "oswald", sans-serif;
-  text-transform: uppercase;
- letter-spacing: 2px;
- color: #252525;
-}
+
 #menu{
   font-size: 110%;
   letter-spacing: 4px;
@@ -80,7 +80,19 @@ margin-top:47px;
   height:600px;
   width:100%;
   background: url(../images/hero-image.webp) no-repeat center center/cover;
-  
+position: relative;}  
+#cover-text{
+  background-color: rgba(241, 109, 107, 0.7);
+  font-size: 130%;
+  position:absolute;
+  bottom:30px;
+  width: 200px;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+#cover-text h2, h3 {
+  color:#ffffff
 }
 /*footer */
 #social-lists{
@@ -128,7 +140,11 @@ main {
   margin-top: 95px;
 }
 }
-
+ /* Hero image */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 /*Commands to change menu for desktop*/
 @media screen and (min-width: 992px)
 { #menu a:hover{border-bottom: 1px solid #3a3a3a;}}
