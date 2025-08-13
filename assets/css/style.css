@@ -117,6 +117,11 @@ h3 {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
+
+#reasons h3 {
+  color:#000000
+}
+
 #benefits-physical > div #benefits-mental > div {
   line-height: 20px;
   margin-bottom: 20px;
