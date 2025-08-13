@@ -98,8 +98,7 @@ main {
   padding-top: 40px;
   padding-left: 10px;
 }
-#cover-text h2,
-h3 {
+#cover-text h2, #cover-text h3 {
   color: #ffffff;
 }
 
@@ -118,9 +117,7 @@ h3 {
   margin: 5px 0;
 }
 
-#reasons h3 {
-  color:#000000
-}
+
 
 #benefits-physical > div #benefits-mental > div {
   line-height: 20px;
