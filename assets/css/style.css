@@ -6,15 +6,15 @@
   margin: 0;  
   box-sizing: border-box;}
 /* page formatting*/
+/* Generic project styles*/
 body {
    min-height: 100vh;
     display: flex;
     flex-direction: column;
-/* Generic project styles*/
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
 }
-h1, h2 , h3 {
+h1, h2, h3{
   font-family: "oswald", sans-serif;
   text-transform: uppercase;
  letter-spacing: 2px;
@@ -70,14 +70,13 @@ header a {
  }
 
 main {
-background: url(../images/hero-image.webp   );
+
 /* code to ensure body size doesnt shrink*/
 flex: 1 0 auto ;
 margin-top:47px;
 }
 /*main central image */
-#hero{
-  height:600px;
+#hero{  height:600px;
   width:100%;
   background: url(../images/hero-image.webp) no-repeat center center/cover;
 position: relative;}  
@@ -92,7 +91,7 @@ position: relative;}
   padding-left: 10px;
 }
 #cover-text h2, h3 {
-  color:#ffffff
+  color:#ffffff;
 }
 /*footer */
 #social-lists{
@@ -107,6 +106,31 @@ font-size: 160%;
 padding: 5%;
 color:#3a3a3a;
 }
+
+#reasons{
+  width: 90%;
+  margin: 20px auto;
+   }
+
+#reasons h2
+{font-size: 280%;
+text-align: center;}
+
+#reasons h3{
+  color:#3a3a3a
+}
+ 
+#reason hr{
+      border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits-physical >div #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px)
 {
@@ -117,7 +141,6 @@ nav {
   box-shadow:none;
   width:fit-content;
   padding-right: 1rem;
-
 }
 #menu {
   display:flex;
@@ -126,7 +149,6 @@ nav {
 #menu > li{
   padding-left: 1rem;
 }
-
 .nav-toggle-label{
   display: none;
 }
