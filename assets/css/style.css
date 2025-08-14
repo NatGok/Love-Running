@@ -21,6 +21,10 @@ h1, h2, h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+/*code to hide headings later*/
+.hidden-heading{
+display: none;
+}
 /*header formatting*/
 header {
   background-color: rgb(255, 255, 255);
@@ -126,6 +130,17 @@ main {
 #benefits p {
   padding: 0 20px;
 }
+/*Format for gallery page */
+/*set all images in the gallery to fit the page */
+#photos img{
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
 /*footer */
 #social-lists {
   text-align: center;
@@ -224,7 +239,7 @@ flex-wrap: wrap;
   height:90vw;
   width: 90vw;
   border-radius: 50%;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
   max-height: 300px;
   max-width: 300px;
 }
