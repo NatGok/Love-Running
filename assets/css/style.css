@@ -186,7 +186,15 @@ main {
     column-gap: 0;
   }
 }
-
+#su-main {
+  display: flex;
+  /* make the main section fill the screen*/
+  flex: 1 0 auto;
+  /* increase margin at top*/
+  margin-top: 47px;
+  /* allow the flex to flow in columns */
+  flex-direction: column;
+}
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px) {
   /*header for tablet*/
@@ -302,16 +310,6 @@ main {
   font-size: 100%;
   background-color: #454b1b;
   color: #fafafa;
-}
-
-#su-main {
-  display: flex;
-  /* make the main section fill the screen*/
-  flex: 1 0 auto;
-  /* increase margin at top*/
-  margin-top: 35px;
-  /* allow the flex to flow in columns */
-  flex-direction: column;
 }
 
 /*Commands to change menu for desktop*/
