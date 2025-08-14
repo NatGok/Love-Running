@@ -132,14 +132,7 @@ main {
 }
 /*Format for gallery page */
 /*set all images in the gallery to fit the page */
-#photos img{
-  width: 100%;
-  line-height: 1em;
-}
 
-#photos {
-  line-height: 0;
-}
 
 /*footer */
 #social-lists {
@@ -173,11 +166,20 @@ flex-wrap: wrap;
   border:2px solid #ffffff
  }
 
-
-
  #times h3{
   color: #fafafa;
  }
+ /*gallery page*/
+#photos img{
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
+
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px) {
   /*header for tablet*/
