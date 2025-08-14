@@ -139,7 +139,30 @@ main {
   padding: 5%;
   color: #3a3a3a;
 }
+ /*image behind event schedule*/
+#times{
+background: url(../images/dublin-city.webp) no-repeat center/cover;
+display: flex;
+flex-wrap: wrap;
+}
+ /*adjust text colour over dublin image*/
+ #times div{
+  color:#fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+   /*adjust the boxes to be responsive later  */
+  flex-basis: 200px;
+  flex-grow:1;
+   /*border around event individual cells*/
+  border:2px solid #ffffff
+ }
 
+
+
+ #times h3{
+  color: #fafafa;
+ }
 /*Commands to change menu for table using media query for >768px*/
 @media screen and (min-width: 768px) {
   /*header for tablet*/
